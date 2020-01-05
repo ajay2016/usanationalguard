@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="GetStartedTest(failed)">
+    <classes>
+      <class name="com.nationalguard.ddf.testcases.FitnessCal">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.nationalguard.ddf.testcases.FitnessCal -->
+      <class name="com.nationalguard.ddf.testcases.WeightCalculatorTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.nationalguard.ddf.testcases.WeightCalculatorTest -->
+      <class name="com.nationalguard.ddf.testcases.NationalGuardGetStarted">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="getStartedForm" invocation-numbers="2"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.nationalguard.ddf.testcases.NationalGuardGetStarted -->
+      <class name="com.nationalguard.ddf.testcases.GuardPayTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="quit"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.nationalguard.ddf.testcases.GuardPayTest -->
+    </classes>
+  </test> <!-- GetStartedTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

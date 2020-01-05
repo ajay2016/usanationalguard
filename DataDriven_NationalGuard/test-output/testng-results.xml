@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52938" started-at="2020-01-03T06:05:41Z" finished-at="2020-01-03T06:06:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52938" started-at="2020-01-03T06:05:41Z" finished-at="2020-01-03T06:06:34Z">
+      <class name="com.nationalguard.ddf.testcases.CareerOptionsLinksTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.nationalguard.ddf.testcases.CareerOptionsLinksTest@77caeb3e]" name="initialize" is-config="true" duration-ms="15" started-at="2020-01-03T17:05:41Z" finished-at="2020-01-03T17:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.nationalguard.ddf.testcases.CareerOptionsLinksTest@77caeb3e]" name="initTest" is-config="true" duration-ms="170" started-at="2020-01-03T17:05:42Z" finished-at="2020-01-03T17:05:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="fitnessCalculator(java.util.Hashtable)[pri:0, instance:com.nationalguard.ddf.testcases.CareerOptionsLinksTest@77caeb3e]" name="fitnessCalculator" duration-ms="19837" started-at="2020-01-03T17:05:42Z" data-provider="getData" finished-at="2020-01-03T17:06:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Gender_xpath=//label[@for='gender_0' and @class='btn-outline'], Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fitnessCalculator -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.nationalguard.ddf.testcases.CareerOptionsLinksTest@77caeb3e]" name="quit" is-config="true" duration-ms="1277" started-at="2020-01-03T17:06:02Z" finished-at="2020-01-03T17:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.nationalguard.ddf.testcases.CareerOptionsLinksTest@77caeb3e]" name="initTest" is-config="true" duration-ms="0" started-at="2020-01-03T17:06:03Z" finished-at="2020-01-03T17:06:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="fitnessCalculator(java.util.Hashtable)[pri:0, instance:com.nationalguard.ddf.testcases.CareerOptionsLinksTest@77caeb3e]" name="fitnessCalculator" duration-ms="29292" started-at="2020-01-03T17:06:03Z" data-provider="getData" finished-at="2020-01-03T17:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Gender_xpath=//label[@for='gender_1' and @class='btn-outline'], Browser=firefox}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fitnessCalculator -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.nationalguard.ddf.testcases.CareerOptionsLinksTest@77caeb3e]" name="quit" is-config="true" duration-ms="1620" started-at="2020-01-03T17:06:32Z" finished-at="2020-01-03T17:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.nationalguard.ddf.testcases.CareerOptionsLinksTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
